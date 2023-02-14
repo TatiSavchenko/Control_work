@@ -20,7 +20,7 @@ string [] GetArray(string[] inArray)
     int count =0;
     foreach(var element in inArray)
     {
-        if(element.Length<4)
+        if(element.Length<=3)
         {
             stringArray[count]= element; 
             count++;
@@ -35,7 +35,7 @@ int SizeNewArray (string[] inArray)
     int size = 0;
     foreach(var element in inArray )
     {
-        if(element.Length<4)
+        if(element.Length<=3)
         {
             size++;
         }
